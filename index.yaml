@@ -1,0 +1,135 @@
+apiVersion: v1
+entries:
+  elasticsearch:
+  - created: 2017-05-09T11:36:15.515035292+04:00
+    description: Flexible and powerful open source, distributed real-time search and
+      analytics engine.
+    digest: f919ad28caea5d4150c21196f5e318f28673417ba041715b7f7ec8e5a71f11a5
+    home: https://www.elastic.co/products/elasticsearch
+    icon: https://static-www.elastic.co/assets/blteb1c97719574938d/logo-elastic-elasticsearch-lt.svg
+    maintainers:
+    - email: prazumovsky@mirantis.com
+      name: Peter Razumovsky
+    name: elasticsearch
+    urls:
+    - https://frostman.github.io/charts/elasticsearch-0.1.0.tgz
+    version: 0.1.0
+  grafana:
+  - created: 2017-05-09T11:36:15.516293715+04:00
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 6276a798ca75fe4d53f8d0b73c3c17ed37b6018c068c28d3ecebdf1be23be58b
+    engine: gotpl
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: Ming Hsieh
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    urls:
+    - https://frostman.github.io/charts/grafana-0.2.5.tgz
+    version: 0.2.5
+  hdfs:
+  - created: 2017-05-09T11:36:15.51686124+04:00
+    description: Hadoop Distributed File System (HDFS) hosted by Kubernetes.
+    digest: ef66b1c6567565794818a40e292c8f21010a2eae60ff0792ea4672216d6269ee
+    name: hdfs
+    urls:
+    - https://frostman.github.io/charts/hdfs-0.1.tgz
+    version: "0.1"
+  kafka:
+  - created: 2017-05-09T11:36:15.518019281+04:00
+    description: Apache Kafka is publish-subscribe messaging rethought as a distributed
+      commit log.
+    digest: 78d09013e1f7949f5d8a876ad52989c0b40f4b876a15e61d7ce851185f23135a
+    name: kafka
+    urls:
+    - https://frostman.github.io/charts/kafka-1.0.0.tgz
+    version: 1.0.0
+  kibana:
+  - created: 2017-05-09T11:36:15.518653132+04:00
+    description: |
+      Kibana is an open source analytics and visualization platform
+      designed to work with Elasticsearch.
+    digest: 3867c1fee34dda76da84c3438b8029aff50d39dabd24e7d5f66ab946d9a4605d
+    home: https://www.elastic.co/products/kibana
+    name: kibana
+    urls:
+    - https://frostman.github.io/charts/kibana-0.1.0.tgz
+    version: 0.1.0
+  logstash:
+  - created: 2017-05-09T11:36:15.519157452+04:00
+    description: |
+      Logstash is an open source, server-side data processing pipeline
+      that ingests data from a multitude of sources simultaneously,
+      transforms it, and then sends it to your favorite "stash".
+    digest: 6ad992dfb9c72eddbc8213bf5381de3337830211c8f6f1d3742e5780e1363720
+    home: https://www.elastic.co/products/logstash
+    name: logstash
+    urls:
+    - https://frostman.github.io/charts/logstash-0.1.1.tgz
+    version: 0.1.1
+  prometheus:
+  - created: 2017-05-09T11:36:15.520357649+04:00
+    description: Prometheus is a monitoring system and time series database.
+    digest: 81e227eb32902085b2f26c58db790c8ca2cab83360986c574e1b617c86cbb98c
+    engine: gotpl
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: mgoodness@gmail.com
+      name: Michael Goodness
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/kubernetes/kube-state-metrics
+    urls:
+    - https://frostman.github.io/charts/prometheus-3.0.1.tgz
+    version: 3.0.1
+  spark:
+  - created: 2017-05-09T11:36:15.521431453+04:00
+    description: Fast and general-purpose cluster computing system.
+    digest: 5df4c555cd41fb0d8639eb6e955ec23013d886385e5c7aaeadce2269a9979446
+    home: http://spark.apache.org
+    icon: http://spark.apache.org/images/spark-logo-trademark.png
+    maintainers:
+    - email: lachlan.evenson@gmail.com
+      name: Lachlan Evenson
+    name: spark
+    sources:
+    - https://github.com/kubernetes/kubernetes/tree/master/examples/spark
+    - https://github.com/apache/spark
+    urls:
+    - https://frostman.github.io/charts/spark-0.1.4.tgz
+    version: 0.1.4
+  tweepub:
+  - apiVersion: v1
+    created: 2017-05-09T11:36:15.522010613+04:00
+    description: A Helm chart for TweePub - Streaming tweets to Apache Kafka
+    digest: d1bd73019d6888e6ac21526126d70f1fcc18fdad0736a54ddbd84869c9a13653
+    name: tweepub
+    urls:
+    - https://frostman.github.io/charts/tweepub-0.1.0.tgz
+    version: 0.1.0
+  tweeviz:
+  - apiVersion: v1
+    created: 2017-05-09T11:36:15.522557465+04:00
+    description: A Helm chart for TweeViz - Visualizing stream processed tweets
+    digest: f47b3cd422f106bcef1ae05f7bcdd5fa5c4cf2ac128eb4eaa65017e12f14a208
+    name: tweeviz
+    urls:
+    - https://frostman.github.io/charts/tweeviz-0.1.0.tgz
+    version: 0.1.0
+  zookeeper:
+  - created: 2017-05-09T11:36:15.523131724+04:00
+    description: ZooKeeper is a centralized service for maintaining configuration
+      information, naming, providing distributed synchronization, and providing group
+      services.
+    digest: a3938a327d2ed90284bd9dbaa75a0078756f775eb119e2d4a77ac748ac177161
+    name: zookeeper
+    urls:
+    - https://frostman.github.io/charts/zookeeper-1.0.0.tgz
+    version: 1.0.0
+generated: 2017-05-09T11:36:15.513225197+04:00
